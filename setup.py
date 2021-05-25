@@ -5,8 +5,9 @@ with open("README.md", "r") as file:
 
 setup(
     name="Pyxels",
+    packages=["pyxels"],
     description="An API wrapper for the Python Discord Pixels API",
-    version="1.0.0",
+    version="1.0.2",
     long_description=long_des,
     long_description_content_type="text/markdown",
     license="MIT",

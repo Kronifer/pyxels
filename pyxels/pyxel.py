@@ -61,4 +61,11 @@ class Pyxels:
         )
         payload = r.json()
 
-        return payload["message"]
+        print(payload)
+
+        if r.status_code == 200:
+
+            return payload["message"]
+        
+        else:
+            return payload
